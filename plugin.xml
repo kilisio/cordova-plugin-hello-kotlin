@@ -17,7 +17,7 @@
     <clobbers target="hellokotlin" />
   </js-module>
 
-  <platform name="android" kotlin="1.2.30">
+  <platform name="android">
     <config-file target="config.xml" parent="/*">
       <feature name="HelloKotlin">
         <param name="android-package" value="cordova.plugin.HelloKotlin"/>
