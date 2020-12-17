@@ -1,9 +1,9 @@
 package hellokotlin
 
+import android.util.Log
 import org.apache.cordova.*
 import org.json.JSONArray
 import org.json.JSONException
-import android.util.Log
 
 class HelloKotlin : CordovaPlugin() {
     lateinit var context: CallbackContext
@@ -18,7 +18,6 @@ class HelloKotlin : CordovaPlugin() {
                 val input = data.getString(0)
                 val output = "Kotlin says \"$input\""
                 callbackContext.success(output)
-
             } else {
                 handleError("Invalid action")
                 result = false
@@ -30,7 +29,6 @@ class HelloKotlin : CordovaPlugin() {
 
         return result
     }
-
 
     /**
      * Handles an error while executing a plugin API method.
@@ -45,7 +43,6 @@ class HelloKotlin : CordovaPlugin() {
         } catch (e: Exception) {
             Log.e(TAG, e.toString())
         }
-
     }
 
     private fun handleException(exception: Exception) {
