@@ -3,13 +3,13 @@
     "name": "cordova-plugin-hello-kotlin",
     "cordova_name": "Hello Kotlin",
     "description": "",
-    "author": "Dave Alden",
+    "author": "Patrick Kilisio",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/dpa99c/cordova-plugin-hello-kotlin.git"
+        "url": "https://github.com/kilisio/cordova-plugin-hello-kotlin.git"
     },
-    "issue": "https://github.com/dpa99c/cordova-plugin-hello-kotlin/issues",
+    "issue": "https://github.com/kilisio/cordova-plugin-hello-kotlin/issues",
     "cordova": {
         "id": "cordova-plugin-hello-kotlin",
         "platforms": [
@@ -24,13 +24,5 @@
     ],
     "dependencies": {
         "xml2js": "^0.4.19"
-    },
-    "engines": {
-        "cordovaDependencies": {
-            "1.0.0": {
-                "cordova-android": ">=7.0.0",
-                "cordova": ">=7.1.0"
-            }
-        }
     }
 }
