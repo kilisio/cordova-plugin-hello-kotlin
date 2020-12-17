@@ -27,6 +27,6 @@
     </config-file>
 
     <source-file src="src/HelloKotlin.kt" target-dir="app/src/main/kotlin/hellokotlin"/>
-    <source-file src="src/build-extras.gradle" target-dir="."/>
+    <framework src="src/build-extras.gradle" custom="true" type="gradleReference"/>
   </platform>
 </plugin>
