@@ -20,7 +20,7 @@
   <platform name="android">
       <config-file target="res/xml/config.xml" parent="/*">
       <feature name="HelloKotlin">
-        <param name="android-package" value="cordova.plugin.HelloKotlin"/>
+        <param name="android-package" value="hellokotlin.HelloKotlin"/>
       </feature>
     </config-file>
 
