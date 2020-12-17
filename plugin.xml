@@ -26,7 +26,7 @@
       </feature>
     </config-file>
 
-    <source-file src="src/HelloKotlin.kt" target-dir="app/src/main/java/cordova/plugin"/>
+    <source-file src="src/HelloKotlin.kt" target-dir="app/src/main/kotlin/cordova/plugin"/>
     <source-file src="src/build-extras.gradle" target-dir="."/>
   </platform>
 </plugin>
