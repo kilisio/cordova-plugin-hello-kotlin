@@ -13,9 +13,7 @@
 
   <author email="pkilisio@gmail.com">Patrick Kilisio</author>
 
-  <asset src="www/hellokotlin.js" target="js/hellokotlin.js"/>
-
-  <js-module src="www/hellokotlin.js" name="hellokotlin">
+  <js-module src="www/hellokotlin.js" name="HelloKotlin">
     <clobbers target="hellokotlin" />
   </js-module>
 
