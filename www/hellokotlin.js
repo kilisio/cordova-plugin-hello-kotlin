@@ -6,6 +6,7 @@ var HelloKotlin = (function () {
     HelloKotlin.hello = function (input, successCallback, errorCallback) {
         cordova_1.exec(successCallback, errorCallback, "HelloKotlin", "hello", [input]);
     };
+    return HelloKotlin;
 }());
 
 module.exports = HelloKotlin;
