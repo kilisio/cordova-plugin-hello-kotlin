@@ -1,3 +1,9 @@
 node_modules
 .idea
 /src/android/obj
+/test/cordova_latest/node_modules
+/test/cordova_latest/platforms
+/test/cordova_latest/plugins
+/test/cordova_old/node_modules
+/test/cordova_old/platforms
+/test/cordova_old/plugins

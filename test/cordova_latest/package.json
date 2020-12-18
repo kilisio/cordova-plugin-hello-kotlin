@@ -1,0 +1,22 @@
+{
+  "name": "io.cordova.hellokotlin",
+  "version": "1.0.0",
+  "displayName": "Hello Kotlin",
+  "dependencies": {},
+  "scripts": {
+    "build": "rm -rf platforms && rm -rf plugins && rm -rf node_modules && npm install && npm run plug && cordova platform add android && cordova build android",
+    "plug": "cordova plugin add https://github.com/kilisio/cordova-plugin-hello-kotlin.git#dev-__master__"
+  },
+  "devDependencies": {
+    "cordova-android": "^9.0.0",
+    "cordova-plugin-hello-kotlin": "git+https://github.com/kilisio/cordova-plugin-hello-kotlin.git#dev-__master__"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-hello-kotlin": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}

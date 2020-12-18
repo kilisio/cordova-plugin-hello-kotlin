@@ -1,28 +1,33 @@
 {
-    "version": "1.0.0",
-    "name": "cordova-plugin-hello-kotlin",
-    "cordova_name": "Hello Kotlin",
-    "description": "",
-    "author": "Patrick Kilisio",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/kilisio/cordova-plugin-hello-kotlin.git"
-    },
-    "issue": "https://github.com/kilisio/cordova-plugin-hello-kotlin/issues",
-    "cordova": {
-        "id": "cordova-plugin-hello-kotlin",
-        "platforms": [
-            "android"
-        ]
-    },
-    "keywords": [
-        "ecosystem:cordova",
-        "cordova",
-        "android",
-        "kotlin"
-    ],
-    "dependencies": {
-        "xml2js": "^0.4.19"
-    }
+  "version": "1.0.0",
+  "name": "cordova-plugin-hello-kotlin",
+  "cordova_name": "Hello Kotlin",
+  "description": "",
+  "author": "Patrick Kilisio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kilisio/cordova-plugin-hello-kotlin.git"
+  },
+  "issue": "https://github.com/kilisio/cordova-plugin-hello-kotlin/issues",
+  "cordova": {
+    "id": "cordova-plugin-hello-kotlin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova",
+    "android",
+    "kotlin"
+  ],
+  "scripts": {
+    "build": "run-p build:*",
+    "build:latest": "cd test/cordova_latest && npm run build",
+    "build:old": ""
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
 }
